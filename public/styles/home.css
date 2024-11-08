@@ -1,0 +1,73 @@
+#titleHome {
+    text-align: center;
+}
+
+#presentation {
+    text-align: center;
+}
+
+#structurePhoto {
+    display: flex;
+    justify-content: center;
+}
+
+#photoHome {
+    border: solid 5px black ;
+    border-radius: 20%;
+}
+
+#competences {
+    display: flex;
+    justify-content: space-around;
+}
+
+.comp {
+    display: flex;
+    flex-direction: column;
+}
+
+.comp p {
+    text-align: center;
+}
+
+#imageHTML {
+    width: 50px;
+    height: 50px;
+}
+
+#imageCSS {
+    width: 75px;
+    height: 50px;
+}
+
+#imageJS {
+    width: 40px;
+    height: 60px;
+}
+
+#imageReact {
+    width: 75px;
+    height: 60px;
+}
+
+#imageNodeJS {
+    width: 75px;
+    height: 60px;
+}
+
+#titreBooki {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+#PhotoBooki {
+    height: 1000px;
+    width: 750px;
+    border: solid black 3px;
+}
+
+#ProjetBooki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
