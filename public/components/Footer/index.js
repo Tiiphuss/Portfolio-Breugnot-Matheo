@@ -18,9 +18,9 @@ function Footer() {
 
             <div id="Links">
                 <ul>
-                    <li> <a href="mailto:matheo9477@gmail.com"> <img src="../assets/Links/enveloppe.png"/> </a> </li>
-                    <li> <a href="https://www.linkedin.com/in/matheobreugnot/"> <img src="../assets/Links/Linkedin.png"/> </a> </li>
-                    <li> <a href="https://github.com/Tiiphuss"> <img src="../assets/Links/Github.png"/> </a> </li>
+                    <li> <a href="mailto:matheo9477@gmail.com" target="_blanck"> <img src="../assets/Links/enveloppe.png"/> </a> </li>
+                    <li> <a href="https://www.linkedin.com/in/matheobreugnot/" target="_blanck"> <img src="../assets/Links/Linkedin.png"/> </a> </li>
+                    <li> <a href="https://github.com/Tiiphuss" target="_blanck"> <img src="../assets/Links/Github.png"/> </a> </li>
                 </ul>
             </div>
         </div>
