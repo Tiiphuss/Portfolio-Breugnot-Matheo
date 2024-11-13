@@ -1,8 +1,10 @@
 "use client";
-import "../public/styles/home.css"
+<script src="https://kit.fontawesome.com/2d2f680958.js" crossorigin="anonymous"></script>
+import "../public/styles/Home.css"
 import { Projets } from "../public/datas/projets.js"
 import Slideshow from "../public/components/Slideshow"
 import Competence from "../public/components/Competence"
+import Footer from "../public/components/Footer"
 
 export default function Home() {
   return (
@@ -49,6 +51,9 @@ export default function Home() {
               </div>
           ))}
       </div>
+      <footer>
+          <Footer/>
+      </footer>
     </main>
   );
 }

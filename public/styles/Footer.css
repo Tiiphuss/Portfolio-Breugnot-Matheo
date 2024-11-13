@@ -1,0 +1,47 @@
+main {
+    padding: 0;
+}
+
+footer {
+    background-color: black;
+}
+footer p {
+    color: white;
+}
+
+#infos {
+    text-align: center;
+}
+
+#orgaFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Links {
+    margin-right: 30px;
+}
+
+#Links ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+#Links img {
+    height: 50px;
+    width: 60px;
+    border: solid white 3px;
+    border-radius: 30%;
+    padding: 10px;
+}
+
+li {
+    text-align: left;
+}
+
+#copyright {
+    padding-top: 30px;
+    margin-left: 45px;
+}

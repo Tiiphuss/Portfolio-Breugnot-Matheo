@@ -1,3 +1,12 @@
+main {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+}
+
 #titleHome {
     text-align: center;
 }
@@ -55,4 +64,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.projet a {
+    text-decoration-color: black;
+    color: grey;
 }
