@@ -1,5 +1,5 @@
 "use client";
-import "../public/styles/Home.css"
+import "../public/styles/home.css"
 import { Projets } from "../public/datas/projets.js"
 import Slideshow from "../public/components/Slideshow"
 import Competence from "../public/components/Competence"
