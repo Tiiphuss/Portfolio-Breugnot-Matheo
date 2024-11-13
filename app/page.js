@@ -1,5 +1,8 @@
+"use client";
 import "../public/styles/home.css"
 import { Projets } from "../public/datas/projets.js"
+import Slideshow from "../public/components/Slideshow"
+import Competence from "../public/components/Competence"
 
 export default function Home() {
   return (
@@ -12,7 +15,7 @@ export default function Home() {
         </div>
 
         <p id="presentation">
-          Développeur web orienté frontent
+          Développeur web orienté Frontent
           <br/>
           <br/>
           Autonome, passionné et a l'écoute, je transformerais vos idées en sites fonctionnels et stylisés !
@@ -26,47 +29,25 @@ export default function Home() {
 
       <h2>Mes compétences</h2>
       <div id="competences">
-          <div className="comp">
-            <img src="../assets/HTML5.png" id="imageHTML" alt="Logo HTML"/>
-            <p>HTML</p>
-          </div>
-
-          <div className="comp">
-            <img src="../assets/CSS.png" id="imageCSS" alt="Logo Css"/>
-            <p>CSS</p>
-          </div>
-
-          <div className="comp">
-            <img src="../assets/JS.png" id="imageJS" alt="Logo JS"/>
-            <p>JS</p>
-          </div>
-
-          <div className="comp">
-            <img src="../assets/React.png" id="imageReact" alt="Logo React"/>
-            <p>React</p>
-          </div>
-
-          <div className="comp">
-            <img src="../assets/NodeJS.png" id="imageNodeJS" alt="Logo NodeJS"/>
-            <p>NodeJS</p>
-          </div>
+          <Competence img="../assets/Competences/HTML5.png" alt="Logo HTML" nom="HTML"/>
+          <Competence img="../assets/Competences/CSS.png" alt="Logo CSS" nom="CSS"/>
+          <Competence img="../assets/Competences/JS.png" alt="Logo JS" nom="JS"/>
+          <Competence img="../assets/Competences/React.png" alt="Logo React" nom="React"/>
+          <Competence img="../assets/Competences/NodeJS.png" alt="Logo NodeJS" nom="NodeJS"/>
+          <Competence img="../assets/Competences/MongoDB.png" alt="Logo MongoDB" nom="MongoDB"/>
+          <Competence img="../assets/Competences/Git.png" alt="Logo Git" nom="Git/Github"/>
       </div>
 
-      <h2>Outils et autre</h2>
-      <ul>
-        <li>MongoDB</li>
-        <li>Git/Github</li>
-        <li>API : Authentification JWT, gestion d'erreurs, gestion de fichier utilisateurs</li>
-        <li>Optimisation des performances d'un site</li>
-        <li>Debug et test de sites</li>
-      </ul>
-
       <h2>Mes Projets</h2>
-      <div id="ProjetBooki">
-          <h3 id="titreBooki">Booki</h3>
-          <img src="../assets/BookiEntier.png" id="PhotoBooki"/>
-          <p>Site de recherche de logements et d'activités codé en HTML/CSS (Front uniquement)</p>
-          <a href="https://github.com/Tiiphuss/OCP2-Booki" target="_blank">Lien GitHub de Booki</a>
+      <div id="projets">
+          {Projets.map((projet) => (
+              <div key={projet.title} className="projet">
+                  <h3 className="titreProjet">{projet.title}</h3>
+                  <Slideshow photoProjet={projet.pictures}/>
+                  <p>{projet.description}</p>
+                  <a href={projet.link} target="_blank">Lien GitHub de {projet.title}</a>
+              </div>
+          ))}
       </div>
     </main>
   );

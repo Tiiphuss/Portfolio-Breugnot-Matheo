@@ -6,6 +6,7 @@
     text-align: center;
 }
 
+/*Photo Accueil*/
 #structurePhoto {
     display: flex;
     justify-content: center;
@@ -16,9 +17,11 @@
     border-radius: 20%;
 }
 
+/*Compétences*/
 #competences {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .comp {
@@ -30,43 +33,25 @@
     text-align: center;
 }
 
-#imageHTML {
-    width: 50px;
+.imageComp {
     height: 50px;
+    width: auto;
+    object-fit: contain;
 }
 
-#imageCSS {
-    width: 75px;
-    height: 50px;
-}
-
-#imageJS {
-    width: 40px;
-    height: 60px;
-}
-
-#imageReact {
-    width: 75px;
-    height: 60px;
-}
-
-#imageNodeJS {
-    width: 75px;
-    height: 60px;
-}
-
-#titreBooki {
+/*Projets*/
+.titreProjet {
     font-size: xx-large;
     margin-bottom: 10px;
 }
 
-#PhotoBooki {
+.photosProjet {
     height: 1000px;
-    width: 750px;
+    width: 1000px;
     border: solid black 3px;
 }
 
-#ProjetBooki {
+.projet {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,0 +1,46 @@
+main {
+    padding: 45px;
+}
+
+.flecheGauche {
+    position: absolute;
+    bottom: 40%;
+    left: 0px;
+    background-color: grey;
+    border: transparent;
+    border-radius: 0 25% 25% 0;
+    opacity: 0.5;
+}
+
+.flecheDroite {
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 40%;
+    right: -3px;
+    background-color: grey;
+    border: transparent;
+    border-radius: 0 25% 25% 0;
+    opacity: 0.5;
+}
+
+.numero {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.photo {
+    max-height: 1000px;
+    height: auto;
+    width: 100%;
+    border: solid black 3px;
+}
+
+.slideshow {
+    position: relative;
+}
