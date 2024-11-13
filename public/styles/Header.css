@@ -1,0 +1,25 @@
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+    background-color: white;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+#navbar a:hover {
+    color: white;
+    background-color: black;
+    font-weight: 200;
+}

@@ -1,23 +1,24 @@
 "use client";
-<script src="https://kit.fontawesome.com/2d2f680958.js" crossorigin="anonymous"></script>
 import "../public/styles/Home.css"
 import { Projets } from "../public/datas/projets.js"
 import Slideshow from "../public/components/Slideshow"
 import Competence from "../public/components/Competence"
+import Header from "../public/components/Header"
 import Footer from "../public/components/Footer"
 
 export default function Home() {
   return (
     <main>
-      <h1 id="titleHome">Matheo Breugnot - Développeur Web</h1>
+      <Header/>
 
       <div id="structurePresentation">
+        <h1 id="titleHome">Matheo Breugnot - Développeur Web</h1>
         <div id="structurePhoto">
             <img src="../assets/photoHome.jpg" id="photoHome"/>
         </div>
 
         <p id="presentation">
-          Développeur web orienté Frontent
+          <span>Développeur web orienté Frontent</span>
           <br/>
           <br/>
           Autonome, passionné et a l'écoute, je transformerais vos idées en sites fonctionnels et stylisés !
@@ -25,11 +26,11 @@ export default function Home() {
           Perfectionniste, je saurais faire correspondre votre vision a votre site afin qu'il vous ressemble.
           <br/>
           <br/>
-          Si vous cherchez un developpeur enthousiaste et polyvalent afin de donner vie au site de vos rêves, n'hésitez pas à me contacter !
+          Si vous cherchez un <span>développeur enthousiaste et polyvalent</span> afin de donner vie au site de vos rêves, n'hésitez pas à me contacter !
         </p>
       </div>
 
-      <h2>Mes compétences</h2>
+      <h2 id="ancreComp">Mes compétences</h2>
       <div id="competences">
           <Competence img="../assets/Competences/HTML5.png" alt="Logo HTML" nom="HTML"/>
           <Competence img="../assets/Competences/CSS.png" alt="Logo CSS" nom="CSS"/>
@@ -40,8 +41,9 @@ export default function Home() {
           <Competence img="../assets/Competences/Git.png" alt="Logo Git" nom="Git/Github"/>
       </div>
 
-      <h2>Mes Projets</h2>
+      
       <div id="projets">
+      <h2 id="ancreProjets">Mes Projets</h2>
           {Projets.map((projet) => (
               <div key={projet.title} className="projet">
                   <h3 className="titreProjet">{projet.title}</h3>

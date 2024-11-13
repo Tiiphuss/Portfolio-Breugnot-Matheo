@@ -4,6 +4,7 @@ main {
 
 footer {
     background-color: black;
+    margin-top: 100px;
 }
 footer p {
     color: white;
