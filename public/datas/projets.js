@@ -13,9 +13,9 @@ export const Projets = [
         "pictures": [
             "../assets/Architecte/ArchitecteEntier.png",
             "../assets/Architecte/ArchitecteLogin.png",
-            "../assets/Architecte/ArchitecteTriObjet.png",
-            "../assets/Architecte/ArchitecteTriAppart.png",
-            "../assets/Architecte/ArchitecteTriBar.png"
+            "../assets/Architecte/ArchitecteTriObjet.PNG",
+            "../assets/Architecte/ArchitecteTriAppart.PNG",
+            "../assets/Architecte/ArchitecteTriBar.PNG"
         ],
         "link": "https://github.com/Tiiphuss/OCP3-Architecte"
     },
@@ -32,9 +32,9 @@ export const Projets = [
         "description": "Site de location d’appartements entre particuliers codé avec React",
         "pictures": [
             "../assets/Kasa/KasaEntier.png",
-            "../assets/Kasa/KasaApropos.png",
-            "../assets/Kasa/KasaLogement.png",
-            "../assets/Kasa/Kasa404.png"
+            "../assets/Kasa/KasaApropos.PNG",
+            "../assets/Kasa/KasaLogement.PNG",
+            "../assets/Kasa/Kasa404.PNG"
         ],
         "link": "https://github.com/Tiiphuss/OCP5-React"
     },

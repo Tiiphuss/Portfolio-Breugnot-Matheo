@@ -34,7 +34,7 @@ export default function Home() {
       <div id="competences">
           <Competence img="../assets/Competences/HTML5.png" alt="Logo HTML" nom="HTML"/>
           <Competence img="../assets/Competences/CSS.png" alt="Logo CSS" nom="CSS"/>
-          <Competence img="../assets/Competences/JS.png" alt="Logo JS" nom="JS"/>
+          <Competence img="../assets/Competences/JS.PNG" alt="Logo JS" nom="JS"/>
           <Competence img="../assets/Competences/React.png" alt="Logo React" nom="React"/>
           <Competence img="../assets/Competences/NodeJS.png" alt="Logo NodeJS" nom="NodeJS"/>
           <Competence img="../assets/Competences/MongoDB.png" alt="Logo MongoDB" nom="MongoDB"/>
