@@ -46,3 +46,28 @@ li {
     padding-top: 30px;
     margin-left: 45px;
 }
+
+
+@media (max-width: 767.98px) {
+    #Links {
+        margin-right: 5px;
+        padding-top: 15px;
+    }
+
+    #Links img {
+        height: 20px;
+        width: 25px;
+    }
+
+    footer ul {
+        padding-left: 5px;
+    }
+
+    footer p {
+        font-size: small;
+    }
+
+    #copyright {
+        display: none;
+    }
+}

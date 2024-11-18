@@ -16,10 +16,11 @@ body {
 h2 {
     text-align: center;
     text-decoration: underline 3px;
+    color: #3d85c6;
 }
 
 h3 {
-    text-shadow: 2px 2px 3px grey;    
+    text-shadow: 1px 2px 2px grey;    
 }
 
 span {
@@ -34,10 +35,16 @@ span {
 
 #titleHome {
     text-align: center;
+    padding-top: 20px;
+    color: #3d85c6;
 }
 
 #presentation {
     text-align: center;
+}
+
+span {
+    color: #3d85c6;
 }
 
 /*Photo Accueil*/
@@ -57,6 +64,7 @@ span {
     background-color: white;
     padding-top: 50px;
     margin: 0;
+    color: #3d85c6;
 }
 
 #competences {
@@ -91,6 +99,7 @@ span {
 .titreProjet {
     font-size: xx-large;
     margin-bottom: 30px;
+    color: #3d85c6;
 }
 
 .photosProjet {
@@ -117,4 +126,36 @@ span {
 .projet a {
     text-decoration-color: black;
     color: grey;
+}
+
+
+@media (max-width: 767.98px) {
+    #titleHome {
+        padding-top: 20px;
+    }
+
+    #photoHome {
+        height: 200px;
+        width: 150px;
+    }
+
+    #competences {
+        gap: 30px;
+    }
+
+    .titreProjet {
+        font-size: x-large;
+    }
+
+    .slideshow {
+        margin-left: 10px;
+    }
+
+    .slideshow .photo {
+        width: 95%;
+    }
+
+    .slideshow .flecheDroite {
+        right: 13px;
+    }
 }
