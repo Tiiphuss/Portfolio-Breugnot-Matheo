@@ -1,0 +1,59 @@
+.photo {
+    max-height: 1000px;
+    height: auto;
+    width: 100%;
+}
+
+.photo {
+    height: 600px;
+    width: 900px;
+}
+
+.titreLien {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.Logo {
+    height: 35px;
+    width: 35px;
+}
+
+#lienLogos {
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+#description {
+    margin-left: 20px;
+}
+
+
+@media (max-width: 767.98px) {
+    .Logo {
+        height: 25px;
+        width: 25px;
+    }
+
+    #lienLogos {
+        margin-left: 10px;
+        gap: 5px;
+    }
+
+    .photo {
+        height: 300px;
+        object-fit: fill;
+        width: 100%;
+    }
+
+    .orgaProjet {
+        height: 500px;
+        width: 300px;
+    }
+
+    .slideshow .photo {
+        width: 100%;
+    }
+}

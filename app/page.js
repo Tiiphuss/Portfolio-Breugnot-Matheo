@@ -5,6 +5,7 @@ import Slideshow from "../public/components/Slideshow"
 import Competence from "../public/components/Competence"
 import Header from "../public/components/Header"
 import Footer from "../public/components/Footer"
+import ProjetSwiper from "../public/components/Swiper"
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
       </div>
 
       
-      <div id="projets">
+      {/* <div id="projets">
       <h2 id="ancreProjets">Mes Projets</h2>
           {Projets.map((projet) => (
               <div key={projet.title} className="projet">
@@ -52,7 +53,12 @@ export default function Home() {
                   <a href={projet.link} target="_blank">Lien GitHub de {projet.title}</a>
               </div>
           ))}
+      </div> */}
+      <div id="projets">
+          <h2 id="ancreProjets">Mes Projets</h2>
+          <ProjetSwiper/>
       </div>
+
       <footer>
           <Footer/>
       </footer>
