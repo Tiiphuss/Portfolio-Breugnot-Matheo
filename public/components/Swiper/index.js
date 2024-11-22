@@ -18,9 +18,16 @@ function ProjetSwiper() {
       slidesPerView={"2.2"}
       spaceBetween={200}
       breakpoints={{
-        2500: {
-            slidesPerView: "0",
-            spaceBetween: "10"
+        // 2500: {
+        //     slidesPerView: "0",
+        //     spaceBetween: "10"
+        // },
+        1200: {
+          slidesPerView: "2.2",
+          spaceBetween: "200"
+        },
+        350: {
+          slidesPerView: "1"
         },
     }}
       navigation

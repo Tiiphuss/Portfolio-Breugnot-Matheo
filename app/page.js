@@ -33,13 +33,13 @@ export default function Home() {
 
       <h2 id="ancreComp">Mes compétences</h2>
       <div id="competences">
-          <Competence img="../assets/Competences/HTML5.png" alt="Logo HTML" nom="HTML"/>
-          <Competence img="../assets/Competences/CSS.png" alt="Logo CSS" nom="CSS"/>
-          <Competence img="../assets/Competences/JS.PNG" alt="Logo JS" nom="JS"/>
-          <Competence img="../assets/Competences/React.png" alt="Logo React" nom="React"/>
-          <Competence img="../assets/Competences/NodeJS.png" alt="Logo NodeJS" nom="NodeJS"/>
-          <Competence img="../assets/Competences/MongoDB.png" alt="Logo MongoDB" nom="MongoDB"/>
-          <Competence img="../assets/Competences/Git.png" alt="Logo Git" nom="Git/Github"/>
+          <Competence img="../assets/Competences/HTML.svg" alt="Logo HTML" nom="HTML"/>
+          <Competence img="../assets/Competences/CSS.svg" alt="Logo CSS" nom="CSS"/>
+          <Competence img="../assets/Competences/JS.svg" alt="Logo JS" nom="JS"/>
+          <Competence img="../assets/Competences/React.svg" alt="Logo React" nom="React"/>
+          <Competence img="../assets/Competences/NodeJS.svg" alt="Logo NodeJS" nom="NodeJS"/>
+          <Competence img="../assets/Competences/MongoDB.svg" alt="Logo MongoDB" nom="MongoDB"/>
+          <Competence img="../assets/Competences/Git.svg" alt="Logo Git" nom="Git/Github"/>
       </div>
 
       <div id="projets">

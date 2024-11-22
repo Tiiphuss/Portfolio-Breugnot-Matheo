@@ -18,6 +18,11 @@
 .Logo {
     height: 35px;
     width: 35px;
+    z-index: 10;
+}
+
+.Logo:hover {
+    opacity: 0.6;
 }
 
 #lienLogos {
@@ -26,12 +31,17 @@
     margin-right: 10px;
 }
 
+#lienLogos .Logo:hover {
+    box-shadow: 0 0 10px 3px white;
+    border-radius: 25px;
+}
+
 #description {
     margin-left: 20px;
 }
 
 
-@media (max-width: 767.98px) {
+@media (max-width: 950px) {
     .Logo {
         height: 25px;
         width: 25px;
@@ -49,11 +59,22 @@
     }
 
     .orgaProjet {
+        /* height: 500px;
+        width: 300px; */
         height: 500px;
-        width: 300px;
+        width: 80%;
     }
 
     .slideshow .photo {
+        height: 375px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .slideshow .photo {
+        height: 300px;
         width: 100%;
     }
 }

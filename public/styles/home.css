@@ -54,39 +54,6 @@ span {
     border-radius: 20%;
 }
 
-/*Compétences*/
-#ancreComp {
-    padding-bottom: 50px;
-    background-color: white;
-    padding-top: 50px;
-    margin: 0;
-    color: #3d85c6;
-}
-
-#competences {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-bottom: 50px;
-    background-color: white;
-}
-
-.comp {
-    display: flex;
-    flex-direction: column;
-}
-
-.comp p {
-    text-align: center;
-    -webkit-text-stroke: thin;
-}
-
-.imageComp {
-    height: 50px;
-    width: auto;
-    object-fit: contain;
-}
-
 /*Projets*/
 #ancreProjets{
     margin: 20px;

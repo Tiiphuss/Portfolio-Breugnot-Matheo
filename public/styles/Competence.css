@@ -1,0 +1,60 @@
+.name {
+    visibility: hidden;
+    color: #3d85c6;
+    border: solid 0px;
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+    border: solid 0;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px -1px black;
+}
+
+.image:hover {
+    box-shadow: 1px 2px 5px 0px black;
+}
+
+#ancreComp {
+    padding-bottom: 50px;
+    background-color: white;
+    padding-top: 50px;
+    margin: 0;
+    color: #3d85c6;
+}
+
+#competences {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.comp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comp:hover .name {
+    visibility: visible;
+}
+
+.comp:focus:not(:active) .name {
+    visibility: visible;
+}
+
+.comp p {
+    text-align: center;
+    -webkit-text-stroke: thin;
+}
+
+.imageComp {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
