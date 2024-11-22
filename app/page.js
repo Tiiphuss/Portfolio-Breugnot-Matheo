@@ -42,18 +42,6 @@ export default function Home() {
           <Competence img="../assets/Competences/Git.png" alt="Logo Git" nom="Git/Github"/>
       </div>
 
-      
-      {/* <div id="projets">
-      <h2 id="ancreProjets">Mes Projets</h2>
-          {Projets.map((projet) => (
-              <div key={projet.title} className="projet">
-                  <h3 className="titreProjet">{projet.title}</h3>
-                  <Slideshow photoProjet={projet.pictures}/>
-                  <p>{projet.description}</p>
-                  <a href={projet.link} target="_blank">Lien GitHub de {projet.title}</a>
-              </div>
-          ))}
-      </div> */}
       <div id="projets">
           <h2 id="ancreProjets">Mes Projets</h2>
           <ProjetSwiper/>

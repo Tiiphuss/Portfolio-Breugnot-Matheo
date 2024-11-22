@@ -7,7 +7,7 @@ import Slideshow from "../../components/Slideshow"
 
 function ProjetSwiper() {
     return (
-    <Swiper 
+    <Swiper
       className='swiperProjets'
       modules={[Navigation, Pagination, EffectCoverflow]}
       coverflowEffect={{ rotate: 75, slideShadows: false }}
@@ -28,8 +28,8 @@ function ProjetSwiper() {
       keyboard
     >
         {Projets.map((projet) => (
-            <SwiperSlide>
-              <div key={projet.title} className="projet">
+            <SwiperSlide key={projet.title}>
+              <div className="projet">
                   <div className='orgaProjet'>
                         <Slideshow photoProjet={projet.pictures}/>
                         <div className='titreLien'>
