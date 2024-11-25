@@ -8,7 +8,7 @@ function Footer() {
                 <ul>
                     <li> <p>Mathéo Breugnot</p> </li>
                     <li> <p>+33 7 71 18 59 63</p> </li>
-                    <li> <p>matheo9477@gmail.com</p> </li>
+                    <a href="mailto:matheo9477@gmail.com" target="_blanck"> <li> <p>matheo9477@gmail.com</p> </li> </a>
                 </ul>
             </div>
 

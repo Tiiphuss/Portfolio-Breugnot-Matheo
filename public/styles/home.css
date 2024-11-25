@@ -37,6 +37,7 @@ span {
 
 #presentation {
     text-align: center;
+    font-size: larger;
 }
 
 span {
@@ -67,8 +68,12 @@ span {
 .titreProjet {
     font-size: xx-large;
     margin: 0;
-    color: black;
+    color: white;
     margin-left: 20px;
+}
+
+#description {
+    color: white;
 }
 
 .photosProjet {
@@ -113,9 +118,16 @@ span {
 
     #competences {
         gap: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .titreProjet {
         font-size: x-large;
+    }
+
+    #presentation {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }

@@ -50,7 +50,7 @@ li {
 
 @media (max-width: 767.98px) {
     #Links {
-        margin-right: 5px;
+        margin-right: 10px;
         padding-top: 15px;
     }
 
@@ -69,5 +69,9 @@ li {
 
     #copyright {
         display: none;
+    }
+
+    #infos {
+        margin-left: 10px;
     }
 }

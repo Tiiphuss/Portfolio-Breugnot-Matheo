@@ -12,7 +12,7 @@
 .titreLien {
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
+    margin: 15px;
 }
 
 .Logo {
@@ -31,13 +31,18 @@
     margin-right: 10px;
 }
 
-#lienLogos .Logo:hover {
+/* #lienLogos .Logo:hover {
+    box-shadow: 0 0 10px 3px white;
+    border-radius: 25px;
+} */
+#lienLogos #lienGithub:hover, #lienFigma:hover, #lienSite:hover {
     box-shadow: 0 0 10px 3px white;
     border-radius: 25px;
 }
 
 #description {
-    margin-left: 20px;
+    margin-left: 35px;
+    margin-bottom: 35px;
 }
 
 

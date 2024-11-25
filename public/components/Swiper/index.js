@@ -43,8 +43,8 @@ function ProjetSwiper() {
                             <h3 className="titreProjet">{projet.title}</h3>
                             <div id='lienLogos'>
                                 <a href={projet.link} target="_blank" id='lienGithub'> <img src='../assets/GithubLogo.png' alt='Logo Github' className='Logo'/> </a>
-                                <a href={projet.figma} target="_blank" id='lienFigma'> <img src='../assets/logoFigma.png' alt='Logo Figma' className='Logo'/> </a>
-                                <a href={projet.site} target="_blank" id='lienSite'> <img src='../assets/Site.png' alt='Logo Site' className='Logo'/> </a>
+                                {projet.figma && <a href={projet.figma} target="_blank" id='lienFigma'> <img src='../assets/logoFigma.png' alt='Logo Figma' className='Logo'/> </a>}
+                                {projet.site && <a href={projet.site} target="_blank" id='lienSite'> <img src='../assets/Site.png' alt='Logo Site' className='Logo'/> </a>}
                             </div>
                         </div>
                         <p id='description'>{projet.description}</p>
