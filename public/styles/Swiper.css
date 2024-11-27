@@ -31,10 +31,6 @@
     margin-right: 10px;
 }
 
-/* #lienLogos .Logo:hover {
-    box-shadow: 0 0 10px 3px white;
-    border-radius: 25px;
-} */
 #lienLogos #lienGithub:hover, #lienFigma:hover, #lienSite:hover {
     box-shadow: 0 0 10px 3px white;
     border-radius: 25px;
@@ -57,6 +53,10 @@
         gap: 5px;
     }
 
+    #lienLogos a {
+        height: 25px;
+    }
+
     .photo {
         height: 300px;
         object-fit: fill;
@@ -64,15 +64,21 @@
     }
 
     .orgaProjet {
-        /* height: 500px;
-        width: 300px; */
-        height: 500px;
+        height: 550px;
         width: 80%;
     }
 
     .slideshow .photo {
         height: 375px;
         width: 100%;
+    }
+
+    #description {
+        margin: 0px 25px 0px 35px;
+    }
+
+    .numero {
+        left: 42%;
     }
 }
 

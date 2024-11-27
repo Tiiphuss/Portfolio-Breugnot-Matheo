@@ -14,6 +14,10 @@ footer p {
     text-align: center;
 }
 
+#infos a {
+    text-decoration: none;
+}
+
 #orgaFooter {
     display: flex;
     justify-content: space-between;
